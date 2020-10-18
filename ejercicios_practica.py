@@ -59,7 +59,7 @@ def ej2():
 
     # Suma
     suma = numero_3 + numero_4
-    print('El resusltado de la suma es', suma)
+    print('El resultado de la suma es', suma)
     # Resta
     resta = numero_3 + numero_4
     print('El resultado de la resta es', resta)
