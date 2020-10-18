@@ -28,8 +28,12 @@ def ej1():
 
     # Imprimir en pantalla el resultado de la suma
     # print(....)
+    suma = numero_1 + numero_2
+    print('El resultado de la suma es', suma)
 
     # Repita el procedimiento para realizar la resta
+    resta = numero_1 - numero_2
+    print('El resultado de la resta es', resta)
 
 
 def ej2():
@@ -38,11 +42,12 @@ def ej2():
     # Operadores con números decimales
     # Ahora los valores a operar deben ser ingresados por
     # consola con la función "input" como se ve a continuación
-    print('Ingrese el primer número decimal a operar:')
-    numero_1 = int(input())
-
-    print('Ingrese el segundo número decimal a operar:')
-    numero_2 = int(input())
+    numero_3 = 3.0
+    print('El primer numero decimal a operar es', numero_3)
+    
+    numero_4 = 10.5
+    print('El segundo numero decimal a operar es', numero_4)
+    
 
     # Alumno: Imprima en pantalla los dos números decimales solicitados
     # print(....)
@@ -53,11 +58,14 @@ def ej2():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
-
+    suma = numero_3 + numero_4
+    print('El resusltado de la suma es', suma)
     # Resta
-
+    resta = numero_3 + numero_4
+    print('El resultado de la resta es', resta)
     # División
-
+    division = numero_3 / numero_4
+    print('El resultado de la division es', division)
     # Multiplicación
 
 
@@ -66,11 +74,11 @@ def ej3():
 
     # Ingrese primero su nombre y luego su apellido
     # Capture ambos datos e imprima su nombre completo
-    print('Ingrese su nombre/s:')
-    nombre = str(input())
-
-    print('Ingrese su apellido/s:')
-    apellido = str(input())
+    
+    nombre = 'Beatriz'
+    apellido = 'Garrido'
+    suma = nombre + apellido
+    print('El resultado de la suma es', suma)
 
     # Imprima su nombre completo
 
@@ -85,13 +93,13 @@ def ej4():
 
     # Ingrese tres palabras y arme un acrónimo con ellas
     # Si desea puede modificar el código para ingresar más palabras
-    print('Ingrese palabra 1:')
+    print('Ingrese palabra_1')
     palabra_1 = str(input())
 
-    print('Ingrese palabra 2:')
+    print('Ingrese palabra_2')
     palabra_2 = str(input())
 
-    print('Ingrese palabra 3:')
+    print('Ingrese palabra_3')
     palabra_3 = str(input())
 
     # De cada palabra debe tomar la primera letra y armar el acrónimo
